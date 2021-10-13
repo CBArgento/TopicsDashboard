@@ -18,15 +18,58 @@
 <body>
        
     <div class="container">
-        <h2>Drag and Drop</h2>
-        <p>Drag the image back and forth between the two div elements.</p>
-        
-        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
-          <img src="img_w3slogo.gif" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
+        <div class="dashboardcards">
+            <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                        <div class="card-header">NEXT</div>
+                      </div>
+                      <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Secondary card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+                        <div class="card-header">WIP</div>
+                      </div>
+                      <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Success card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+                        <div class="card-header">REVIEW</div>
+                      </div>
+                      <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Danger card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+                        <div class="card-header">PRINT</div>
+                    </div>
+                    <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Danger card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>
-        
-        <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-
     </div>
+
+
 </body>
 </html>

@@ -6,3 +6,8 @@
     padding: 10px;
     border: 1px solid black;
   }
+
+  .dashboardcards {
+      text-align: center;
+      padding: 15px;
+  }
